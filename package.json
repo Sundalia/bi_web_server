@@ -1,0 +1,30 @@
+{
+  "type": "commonjs",
+  "name": "bi_web_lk",
+  "version": "1.0.0",
+  "description": "dev version for server",
+  "main": "server.js",
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.3",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "mongodb": "^4.13.0",
+    "mongoose": "^6.8.1",
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brnsdrs/bi_web_lk.git"
+  },
+  "author": "Sundlia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brnsdrs/bi_web_lk/issues"
+  },
+  "homepage": "https://github.com/brnsdrs/bi_web_lk#readme"
+}

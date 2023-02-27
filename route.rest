@@ -1,0 +1,103 @@
+//Home
+GET http://localhost:5000
+
+###
+
+//Users
+GET http://localhost:5000/users
+
+###
+
+GET http://localhost:5000/users/5f106aab20085526703af4dc
+
+###
+
+POST http://localhost:5000/users/create
+Content-Type: application/json
+
+{
+  "email": "jopka@jopka.jo",
+  "name": "Jopka",
+  "isActive": "true",
+  "password": "11111",
+  "roles": "admin"
+}
+
+###
+
+PATCH http://localhost:5000/users/update/5f106aab20085526703af4dc
+Content-Type: application/json
+
+{
+  "name": "Name"
+}
+
+###
+
+DELETE http://localhost:5000/users/delete/
+
+###
+
+//Products
+GET http://localhost:5000/products
+
+###
+
+GET http://localhost:5000/products/5f106c39dcc00829b08286d5
+
+###
+
+POST http://localhost:5000/products/create
+Content-Type: application/json
+
+{
+  "name": "test"
+}
+
+###
+
+PATCH http://localhost:5000/products/update/5f106c39dcc00829b08286d5
+Content-Type: application/json
+
+{
+  "name": "product"
+}
+
+###
+
+DELETE http://localhost:5000/products/delete/63793259b8f903c14e83f3b0
+
+###
+
+//Bills
+GET http://localhost:5000/bills
+
+###
+
+GET http://localhost:5000/bills/6181f7ce670e66043272a9e7
+
+###
+
+POST http://localhost:5000/bills/create
+Content-Type: application/json
+
+{
+  "name": "test"
+}
+
+###
+
+PATCH http://localhost:5000/bills/update/6181f7ce670e66043272a9e7
+Content-Type: application/json
+
+{
+  "name": "СчетНаОплату.БИKA-037129"
+}
+
+###
+
+DELETE http://localhost:5000/bills/delete/637c9c11e49451ba3c4da9fb
+
+###
+
+
